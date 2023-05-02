@@ -84,7 +84,7 @@ $ docker-compose up --build
 
 **This may take a few moments**
 
-Navigate to http://localhost:5001 to view the site on the local server.
+Navigate to http://localhost:5000 to view the site on the local server.
 It should look something like this:
 
 ![mern-app_react_success](https://user-images.githubusercontent.com/41876764/87258255-09924080-c457-11ea-97bd-40ad8784a00b.png)
@@ -143,7 +143,7 @@ Let's do that now.
 
 ![mern-app_run_server](https://user-images.githubusercontent.com/41876764/87258208-ad2f2100-c456-11ea-80c9-7ca9a3624462.png)
 
-You can see that we have the express server running on port `5001`.
+You can see that we have the express server running on port `5000`.
 
 - Now switch back to the http://localhost:3000 and refresh the page. You should see the Message at the bottom be updated!
 
@@ -163,7 +163,7 @@ $ npm run-script build
 
 React then will create a `build` directory with a production build of your app which is where our Express server will use to serve the frontend.
 
-- Now if you go to http://localhost:5001 you should see the same React page from earlier!
+- Now if you go to http://localhost:5000 you should see the same React page from earlier!
 
 [Back to Table of Contents](#table-of-contents)
 
